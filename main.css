@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: url("imagen/back.jpg")no-repeat;
+	background-blend-mode: hard-light;
+	background-size: cover;
+}
+
+#wrapper {
+	width: 1250px; margin: 0 auto;	
+}
+
+header {
+	
+}
+header h1 {
+	font-size: 100;
+	font-family: masqualero-groove, sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	text-align: center;
+	color: rgba(145,85,0,0.75)
+}
+
+h6{
+	font-family: swing-king, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	text-align: center
+}
+
+nav{
+	width: 100%;
+	text-align: center;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ 
+nav li{
+	display: inline;
+}
+
+footer{
+	text-align: center;
+	clear: inherit;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: lightgray;
+	
+}
+
+nav a:link {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: rgba(197,59,61,.50);
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+nav a:visited{
+	
+}
+
+nav a:hover{
+	color: rgba(197,59,61,1)
+}
+
+nav a:activate{
+	text-decoration: underline;
+}
+
+.left{
+	width: 300px;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.right{
+	width: 300px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 18px;
+}
+
